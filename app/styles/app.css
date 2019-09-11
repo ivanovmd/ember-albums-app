@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.album-pic {
+    max-width: 100px;
+    max-height: 40px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0;
+    padding: 20px;
+}
+
+.add-album-form,
+.search-form {
+    margin-bottom: 30px
+}
+
+.search-form input,
+.search-form button,
+.add-album-form button,
+.add-album-form input {
+    padding: 5px 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+tr {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+thead tr {
+    background-color: #eee;
+}
+
+tr:nth-child(2n) {
+    background-color: #eee;
+}
+
+tr.most-frequent-artist {
+    background-color: yellow;
+}
